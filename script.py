@@ -2,7 +2,7 @@ import threading
 import socket
 
 # target ip
-target = ''
+target = '25.255.255.254'
 # target port (22 - SSH, 80 - HTTP, etc...)
 port = 22
 fake_ip = '192.138.50.32'
