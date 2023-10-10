@@ -59,7 +59,7 @@ class MyWindow(QMainWindow):
         for i in range(100):
             thread = threading.Thread(target=start_attack)
             thread.start()
-            print(i)
+            print(i, "th request sent!")
 
 
 def main():
